@@ -1,0 +1,28 @@
+## Numpy in Python
+
+# What is Numpy?
+    NumPy (Numerical Python) is an open-source Python library widely used in science and engineering. It provides powerful tools for working with arrays and numerical data. Here are some key points about NumPy:
+
+# 1. Arrays: 
+    NumPy’s fundamental data structure is the ndarray (N-dimensional array). It represents multi-dimensional arrays of homogeneous data (i.e., all elements have the same data type). You can think of it as a grid of elements, similar to a table or a set of tables stacked together.
+
+# 2. Importing NumPy:
+    - After installing NumPy, you can import it into Python using:
+    - The convention is to use the prefix np. for NumPy features.
+    - import numpy as np
+
+# 3. Why Use NumPy?:
+    - NumPy is efficient for large quantities of same-type data.
+    - It offers optimized array operations, memory efficiency, and a high-level syntax.
+    - Python lists are general-purpose but may not be suitable for large-scale numerical computations.
+
+
+# 4. Key Features:
+    - Multidimensional arrays: NumPy provides N-dimensional arrays.
+    - Element-wise operations: You can perform operations on entire arrays without loops.
+    - Broadcasting: Efficiently apply operations to arrays of different shapes.
+    - Linear algebra, Fourier transforms, and more.
+
+# 5. import numpy as np
+    a = np.array([[1, 2, 3], [4, 5, 6]])
+    print(a.shape)  # Output: (2, 3)
